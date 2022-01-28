@@ -1,0 +1,18 @@
+.cart_page .cart_row{
+    height:150px
+}
+
+/*================== check out style css =====================*/
+
+
+@media screen and (max-width: 767px) {
+    .cart_page .cart_row{
+        height:auto;
+    }
+    .cart_page .img_col{
+        height:100px;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  }

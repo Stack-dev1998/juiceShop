@@ -1,0 +1,106 @@
+/*========================= common ========================*/
+
+.text_green{
+  color: #56b280;
+}
+.nm {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.9px;
+  color: #272727;
+}
+.detail .img_div {
+  min-height: 80%;
+  display: block;
+  background-color: #dddee0;
+}
+.detail .img_div img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: #dddee0;
+}
+
+.detail .desc {
+  margin-top: 10px;
+  padding: 0px 5px 0px 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.9px;
+
+  color: #272727;
+}
+
+.detail .free_shiping {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.9px;
+  color: #56b280;
+}
+.name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.9px;
+  color: #272727;
+}
+ .price {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.9px;
+  color: #56b280;
+}
+ .counter {
+  border: 1px solid #56b280;
+  display: inline-flex;
+  align-items: center;
+}
+ .counter span {
+  margin: auto 7px auto 7px;
+}
+
+.detail .radio_btn {
+  margin-right: 10px;
+}
+.detail .paragraph {
+  text-align: justify;
+}
+
+.detail .btn {
+  margin-top: 50px;
+  padding: 8px 44px;
+  background: #56b280;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+}
+.detail .additional_detail {
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #dddee0;
+  border-radius: 10px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}

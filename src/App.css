@@ -1,0 +1,401 @@
+/*==================== common css ====================*/
+
+.bg_white {
+  background-color: white;
+}
+.bg_green {
+  background-color: #56b280;
+}
+.bg_light_green {
+  background-color: #c2e3d1;
+}
+
+.input_icon {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  z-index: 999;
+  right: 10px;
+}
+.self_input {
+  position: absolute;
+}
+.border_green {
+  border: 1px solid #56b280;
+}
+.normal_btn {
+  padding: 8px 10px;
+  width: 183px;
+  height: 40px;
+  background: #56b280;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+.shopping_cart_div{
+position: relative;
+}
+.shopping_cart_icon{
+position: relative;
+}
+.count_cart_items{
+position: absolute;
+background-color: #56b280;
+color: white;
+width: 20px;
+height: 20px;
+top: -10px;
+right: -15px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+}
+
+
+
+/*======================== home page css ==================================*/
+.desabled_btn {
+  padding: 8px 10px;
+  width: auto;
+  height: 40px;
+  background: #a8a8a8;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+.qty_count {
+  position: absolute;
+  top: -7px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #56b280;
+  color: white;
+  z-index: 999;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar{
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: white;
+}
+.nav {
+  height: 75px;
+}
+.big_screen_nav {
+  display: flex;
+}
+.small_screen_nav {
+  display: none;
+}
+.nav .icons img {
+  margin-left: 20px;
+}
+
+.nav ul {
+  margin-bottom: 0;
+}
+.nav_item {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/*==================== mian image section ======================*/
+.main_img {
+  position: relative;
+  min-height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_img img {
+  height: 100%;
+  width: 100%;
+}
+
+.bg_card {
+  position: absolute;
+  width: 50%;
+  min-height: 349px;
+  text-align: center;
+  background: rgba(247, 248, 250, 0.8);
+  backdrop-filter: blur(24px);
+  border-radius: 2px;
+}
+.hero_title {
+  margin-top: 20px;
+  max-width: 50%;
+  height: 112px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+.bg_card p {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  text-indent: 1.5em;
+  margin: 1em;
+  line-height: 26px;
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  text-align: center;
+  color: #1d252c;
+}
+
+.bg_card button {
+  width: 40%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2em;
+
+  line-height: 24px;
+  margin-top: 20px;
+  background: #56b280;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*===================== Products ============================*/
+.products {
+  margin-top: 80px;
+}
+.products .card {
+  border: none;
+  margin-top: 20px;
+  box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.36);
+  transition: all 0.5s;
+}
+.card:hover {
+  transform: scale(1, 1.2);
+  transition: transform 0.5s;
+}
+
+.card .card_body {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f8fa;
+}
+.card_body img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.card .card_footer {
+  padding: 10px 20px 10px 20px;
+}
+.card .card_footer p:first-child {
+  text-align: left;
+  display: block;
+  margin-bottom: 0;
+}
+.card .card_footer p:nth-child(2) {
+  text-align: right;
+  color: #56b280;
+  margin-bottom: 0;
+}
+.card_footer .buy_btn {
+  float: right;
+  display: block;
+  margin-top: 5px;
+  transition: all 0.5;
+  background-color: #56b280;
+  border: none;
+  padding: 1px 15px 1px 15px;
+  color: white;
+}
+/*====================== soy wax =====================*/
+
+.soy_wax {
+  width: 100%;
+  height: 80%;
+  background-color: #f7f8fa;
+  margin-top: 100px;
+}
+.soy_wax .green_text {
+  color: #56b280;
+  font-size: 16px;
+}
+.soy_wax .list {
+  margin-top: 30px;
+}
+.soy_wax .list p img {
+  margin-right: 10px;
+}
+
+.soy_wax button {
+  width: 194px;
+  height: 40px;
+  border: none;
+  margin-top: 50px;
+  background: #56b280;
+  border-radius: 4px;
+  font-weight: 500;
+  color: white;
+}
+.side_img img {
+  width: 100%;
+  height: 100%;
+}
+/*====================== Testemonial =====================*/
+.testmonial {
+  width: 100%;
+  height: 80%;
+  background-color: #eef8f3;
+  margin-top: 100px;
+  display: flex;
+  padding: 50px 0px 50px 0px;
+}
+.testmonial .card {
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  padding: 0px 50px 0px 50px;
+  min-height: 250px;
+  box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.36);
+  transition: all 0.5s;
+}
+.testmonial .user_img {
+  width: 84px;
+  height: 84px;
+}
+
+.testmonial .star {
+  color: #56b280;
+}
+
+/*====================== Footer =====================*/
+.footer {
+  background-color: #272727;
+  padding: 20px 0px 20px 0px;
+  color: white;
+}
+.footer .hr {
+  border-top: 2px solid white;
+}
+
+.footer .text {
+  margin-top: 20px;
+}
+.footer .heading {
+  color: #56b280;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+.footer .copy_right {
+  background-color: #e5e5e5;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 1300px) {
+  .bg_card {
+    width: 60%;
+    height: 30%;
+    padding: 0px;
+  }
+  .hero_title {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .bg_card p {
+    max-width: 90%;
+  }
+
+  .bg_card button {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bg_card {
+    width: 60%;
+    min-height: 90% !important;
+    padding: 0px;
+    background-color: transparent;
+    backdrop-filter: none;
+    margin-top: 0px;
+  }
+  .hero_title {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .bg_card p {
+    max-width: 90%;
+  }
+
+  .bg_card button {
+    width: 90%;
+    margin-top: 0px;
+  }
+
+  .nv {
+    max-width: 100% !important;
+    margin: 0px 0px !important;
+    padding: 0px 10px !important;
+  }
+  .small_screen_nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+    left: 0;
+    border-top: 1px solid red;
+  }
+  .small_screen_nav .nav_item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .big_screen_nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero_title {
+    display: none;
+  }
+  .bg_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg_card p {
+    font-size: 18px;
+  }
+  .bg_card button {
+    width: 70%;
+    font-size: 15px;
+  }
+}
